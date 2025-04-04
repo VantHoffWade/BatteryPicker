@@ -1,0 +1,10 @@
+# 这是为了训练yolo模型而创建的yaml文件，用于存放数据集相关的信息
+
+# 训练集和验证集的路径信息
+train: "train/"
+val: "val/"
+
+# 识别的类数目和类名
+# 圆柱形锂电池、方形锂电池和软包电池
+nc: 3
+names: ["cylindrical", "prismatic", "pouch"]

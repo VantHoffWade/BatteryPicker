@@ -1,0 +1,249 @@
+2025-04-04 21:24:40,960 - icrawler.crawler - INFO - start crawling...
+2025-04-04 21:24:40,961 - icrawler.crawler - INFO - starting 1 feeder threads...
+2025-04-04 21:24:40,962 - feeder - INFO - thread feeder-001 exit
+2025-04-04 21:24:40,962 - icrawler.crawler - INFO - starting 4 parser threads...
+2025-04-04 21:24:40,963 - icrawler.crawler - INFO - starting 4 downloader threads...
+2025-04-04 21:24:42,968 - parser - INFO - no more page urls for thread parser-004 to parse
+2025-04-04 21:24:42,968 - parser - INFO - no more page urls for thread parser-002 to parse
+2025-04-04 21:24:42,968 - parser - INFO - no more page urls for thread parser-003 to parse
+2025-04-04 21:24:42,968 - parser - INFO - thread parser-004 exit
+2025-04-04 21:24:42,968 - parser - INFO - thread parser-002 exit
+2025-04-04 21:24:42,968 - parser - INFO - thread parser-003 exit
+2025-04-04 21:24:43,079 - parser - INFO - parsing result page https://www.google.com/search?q=li+battery&ijn=0&start=0&tbs=&tbm=isch
+2025-04-04 21:24:44,473 - downloader - INFO - image #1	https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41928-018-0048-6/MediaObjects/41928_2018_48_Fig1_HTML.jpg
+2025-04-04 21:24:44,666 - downloader - INFO - image #2	https://dcf.kadant.com/images/blog/pillar-lithium-batteries/lithium-pillar-electrode-mfg-iStock-1402359102.jpg
+2025-04-04 21:24:44,907 - downloader - INFO - image #3	https://ul.org/wp-content/uploads/2024/11/Lithium20Ion20Cell203.png
+2025-04-04 21:24:45,758 - downloader - INFO - image #4	https://circuitdigest.com/sites/default/files/field/image/Li-ion-Batteries.jpg
+2025-04-04 21:24:46,553 - downloader - ERROR - Response status code 403, file https://www.researchgate.net/publication/344448023/figure/fig1/AS:942031924887552@1601609321479/The-principle-of-the-lithium-ion-battery-LiB-showing-the-intercalation-of-lithium-ions.jpg
+2025-04-04 21:24:46,716 - downloader - INFO - image #5	https://admin.acceleratingscience.com/materials/wp-content/uploads/sites/7/2018/11/li-ion20battery.jpg
+2025-04-04 21:24:48,473 - downloader - INFO - image #6	https://cdn-shop.adafruit.com/970x728/4236-04.jpg
+2025-04-04 21:24:48,586 - downloader - INFO - image #7	https://ohmyfacts.com/wp-content/uploads/2024/10/32-facts-about-lithium-ion-batteries-1730367885.jpg
+2025-04-04 21:24:48,791 - downloader - INFO - image #8	https://www.hidenanalytical.com/wp-content/uploads/2021/03/Lithium-Ion-Battery-Development_shutterstock_1142997314-scaled.jpg
+2025-04-04 21:24:49,823 - downloader - INFO - image #9	https://www.sparkfun.com/media/catalog/product/cache/a793f13fd3d678cea13d28206895ba0c/1/3/13853-01.jpg
+2025-04-04 21:24:49,921 - downloader - ERROR - Exception caught when downloading file https://www.fcgov.com/recycling-item-images/img/battery-lithium-ion.jpg, error: HTTPSConnectionPool(host='www.fcgov.com', port=443): Read timed out. (read timeout=5), remaining retry times: 2
+2025-04-04 21:24:49,926 - downloader - ERROR - Response status code 403, file https://www.unmannedsystemstechnology.com/wp-content/uploads/2023/01/LiPoVSLi-ion.png
+2025-04-04 21:24:50,259 - downloader - INFO - image #10	https://www.sparkfun.com/media/catalog/product/cache/a793f13fd3d678cea13d28206895ba0c/1/3/13855-01.jpg
+2025-04-04 21:24:51,024 - downloader - INFO - downloaded images reach max num, thread downloader-004 is ready to exit
+2025-04-04 21:24:51,024 - downloader - INFO - thread downloader-004 exit
+2025-04-04 21:24:51,050 - downloader - INFO - downloaded images reach max num, thread downloader-002 is ready to exit
+2025-04-04 21:24:51,050 - downloader - INFO - thread downloader-002 exit
+2025-04-04 21:24:51,495 - downloader - INFO - downloaded images reach max num, thread downloader-003 is ready to exit
+2025-04-04 21:24:51,495 - downloader - INFO - thread downloader-003 exit
+2025-04-04 21:24:52,805 - parser - INFO - downloaded image reached max num, thread parser-001 is ready to exit
+2025-04-04 21:24:52,805 - parser - INFO - thread parser-001 exit
+2025-04-04 21:24:54,934 - downloader - ERROR - Exception caught when downloading file https://www.fcgov.com/recycling-item-images/img/battery-lithium-ion.jpg, error: HTTPSConnectionPool(host='www.fcgov.com', port=443): Read timed out. (read timeout=5), remaining retry times: 1
+2025-04-04 21:24:54,934 - downloader - INFO - downloaded images reach max num, thread downloader-001 is ready to exit
+2025-04-04 21:24:54,934 - downloader - INFO - thread downloader-001 exit
+2025-04-04 21:24:54,969 - icrawler.crawler - INFO - Crawling task done!
+2025-04-04 21:24:54,969 - icrawler.crawler - INFO - start crawling...
+2025-04-04 21:24:54,969 - icrawler.crawler - INFO - starting 1 feeder threads...
+2025-04-04 21:24:54,969 - feeder - INFO - thread feeder-001 exit
+2025-04-04 21:24:54,969 - icrawler.crawler - INFO - starting 4 parser threads...
+2025-04-04 21:24:54,971 - icrawler.crawler - INFO - starting 4 downloader threads...
+2025-04-04 21:24:55,718 - parser - INFO - parsing result page https://www.bing.com/images/async?q=li battery&first=0
+2025-04-04 21:24:55,968 - downloader - ERROR - Exception caught when downloading file https://www.fcgov.com/recycling-item-images/img/battery-lithium-ion.jpg, error: HTTPSConnectionPool(host='www.fcgov.com', port=443): Max retries exceeded with url: /recycling-item-images/img/battery-lithium-ion.jpg (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)'))), remaining retry times: 2
+2025-04-04 21:24:55,971 - downloader - ERROR - Exception caught when downloading file https://www.fcgov.com/recycling-item-images/img/battery-lithium-ion.jpg, error: HTTPSConnectionPool(host='www.fcgov.com', port=443): Max retries exceeded with url: /recycling-item-images/img/battery-lithium-ion.jpg (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)'))), remaining retry times: 1
+2025-04-04 21:24:55,974 - downloader - ERROR - Exception caught when downloading file https://www.fcgov.com/recycling-item-images/img/battery-lithium-ion.jpg, error: HTTPSConnectionPool(host='www.fcgov.com', port=443): Max retries exceeded with url: /recycling-item-images/img/battery-lithium-ion.jpg (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)'))), remaining retry times: 0
+2025-04-04 21:24:56,001 - downloader - INFO - image #1	https://image.made-in-china.com/2f0j00gTcYNVkWhdqG/14500-800mAh-3-7V-Rechargeable-Li-ion-Battery.jpg
+2025-04-04 21:24:56,971 - parser - INFO - no more page urls for thread parser-002 to parse
+2025-04-04 21:24:56,971 - parser - INFO - thread parser-002 exit
+2025-04-04 21:24:56,986 - parser - INFO - no more page urls for thread parser-003 to parse
+2025-04-04 21:24:56,986 - parser - INFO - no more page urls for thread parser-004 to parse
+2025-04-04 21:24:56,986 - parser - INFO - thread parser-003 exit
+2025-04-04 21:24:56,986 - parser - INFO - thread parser-004 exit
+2025-04-04 21:24:57,129 - downloader - INFO - image #2	https://www.ainbattery.com/wp-content/uploads/18650-3.7V-2900mah-b.jpg
+2025-04-04 21:24:57,251 - downloader - INFO - image #3	https://cdn03.plentymarkets.com/i9a0e0hd8l6w/item/images/100732/full/22650-A-Lithium-Ionen-Akku-3-6V-3-7V-3000mAh.jpg
+2025-04-04 21:24:57,373 - downloader - INFO - image #4	https://www.durnergy.com/uploads/18650-3.7V-4400mAh-Rechargeable-Lithium-Battery-pack-3.jpg
+2025-04-04 21:24:57,743 - parser - INFO - no more page urls for thread parser-001 to parse
+2025-04-04 21:24:57,743 - parser - INFO - thread parser-001 exit
+2025-04-04 21:24:57,827 - downloader - INFO - image #5	https://image.made-in-china.com/2f0j00AvTGIpPzgukw/Rechargeable-25-9V-18650-2200mAh-2400mAh-2600mAh-3500mAh-7s3p-Li-ion-Lithium-Lithium-Ion-Battery-Pack-with-BMS-and-Connector.jpg
+2025-04-04 21:24:58,406 - downloader - INFO - image #6	https://circuitdigest.com/sites/default/files/field/image/Li-ion-Batteries.jpg
+2025-04-04 21:24:58,939 - downloader - INFO - image #7	https://pashbull.com/wp-content/uploads/2023/05/1.jpg
+2025-04-04 21:24:59,687 - downloader - INFO - image #8	https://soldered.com/productdata/2022/09/781300-Edit.jpg
+2025-04-04 21:24:59,914 - downloader - INFO - image #9	https://images.saymedia-content.com/.image/t_share/MTc0NDU5MTcxNDgyNDQ1MTYw/comparing-6-lithium-ion-battery-types.jpg
+2025-04-04 21:24:59,922 - downloader - ERROR - Response status code 403, file https://www.bhphotovideo.com/images/images2500x2500/nitecore_nl189_18650_li_ion_rechargeable_battery_1018867.jpg
+2025-04-04 21:25:00,673 - downloader - INFO - image #10	https://himaxelectronics.com/wp-content/uploads/2019/10/18650-li-ion-battery-2.jpg
+2025-04-04 21:25:01,275 - downloader - INFO - downloaded images reach max num, thread downloader-001 is ready to exit
+2025-04-04 21:25:01,275 - downloader - INFO - thread downloader-001 exit
+2025-04-04 21:25:01,322 - downloader - INFO - downloaded images reach max num, thread downloader-003 is ready to exit
+2025-04-04 21:25:01,322 - downloader - INFO - thread downloader-003 exit
+2025-04-04 21:25:02,946 - downloader - INFO - downloaded images reach max num, thread downloader-004 is ready to exit
+2025-04-04 21:25:02,946 - downloader - INFO - thread downloader-004 exit
+2025-04-04 21:25:02,979 - downloader - INFO - downloaded images reach max num, thread downloader-002 is ready to exit
+2025-04-04 21:25:02,979 - downloader - INFO - thread downloader-002 exit
+2025-04-04 21:25:03,976 - icrawler.crawler - INFO - Crawling task done!
+2025-04-04 21:40:03,988 - icrawler.crawler - INFO - start crawling...
+2025-04-04 21:40:03,989 - icrawler.crawler - INFO - starting 1 feeder threads...
+2025-04-04 21:40:03,989 - feeder - INFO - thread feeder-001 exit
+2025-04-04 21:40:03,991 - icrawler.crawler - INFO - starting 4 parser threads...
+2025-04-04 21:40:03,992 - icrawler.crawler - INFO - starting 4 downloader threads...
+2025-04-04 21:40:05,996 - parser - INFO - no more page urls for thread parser-004 to parse
+2025-04-04 21:40:05,996 - parser - INFO - no more page urls for thread parser-003 to parse
+2025-04-04 21:40:05,996 - parser - INFO - no more page urls for thread parser-002 to parse
+2025-04-04 21:40:05,996 - parser - INFO - thread parser-004 exit
+2025-04-04 21:40:05,996 - parser - INFO - thread parser-003 exit
+2025-04-04 21:40:05,996 - parser - INFO - thread parser-002 exit
+2025-04-04 21:40:06,043 - parser - INFO - parsing result page https://www.google.com/search?q=li+battery&ijn=0&start=0&tbs=&tbm=isch
+2025-04-04 21:40:07,690 - downloader - INFO - image #1	https://ul.org/wp-content/uploads/2024/11/Lithium20Ion20Cell203.png
+2025-04-04 21:40:08,612 - downloader - INFO - image #2	https://dcf.kadant.com/images/blog/pillar-lithium-batteries/lithium-pillar-electrode-mfg-iStock-1402359102.jpg
+2025-04-04 21:40:09,101 - downloader - INFO - image #3	https://admin.acceleratingscience.com/materials/wp-content/uploads/sites/7/2018/11/li-ion20battery.jpg
+2025-04-04 21:40:09,230 - downloader - INFO - image #4	https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41928-018-0048-6/MediaObjects/41928_2018_48_Fig1_HTML.jpg
+2025-04-04 21:40:09,638 - downloader - INFO - image #5	https://circuitdigest.com/sites/default/files/field/image/Li-ion-Batteries.jpg
+2025-04-04 21:40:10,073 - downloader - ERROR - Response status code 403, file https://www.researchgate.net/publication/344448023/figure/fig1/AS:942031924887552@1601609321479/The-principle-of-the-lithium-ion-battery-LiB-showing-the-intercalation-of-lithium-ions.jpg
+2025-04-04 21:40:10,919 - downloader - INFO - image #6	https://ohmyfacts.com/wp-content/uploads/2024/10/32-facts-about-lithium-ion-batteries-1730367885.jpg
+2025-04-04 21:40:11,408 - downloader - INFO - image #7	https://cdn-shop.adafruit.com/970x728/4236-04.jpg
+2025-04-04 21:40:12,205 - downloader - INFO - image #8	https://www.sparkfun.com/media/catalog/product/cache/a793f13fd3d678cea13d28206895ba0c/1/3/13853-01.jpg
+2025-04-04 21:40:13,618 - downloader - ERROR - Exception caught when downloading file https://www.fcgov.com/recycling-item-images/img/battery-lithium-ion.jpg, error: HTTPSConnectionPool(host='www.fcgov.com', port=443): Read timed out. (read timeout=5), remaining retry times: 2
+2025-04-04 21:40:13,767 - downloader - INFO - image #9	https://www.batteryeliminatorkits.com/v/vspfiles/photos/ICR-18650-3000-2.jpg
+2025-04-04 21:40:14,215 - downloader - ERROR - Response status code 403, file https://www.unmannedsystemstechnology.com/wp-content/uploads/2023/01/LiPoVSLi-ion.png
+2025-04-04 21:40:14,488 - downloader - INFO - image #10	https://www.sparkfun.com/media/catalog/product/cache/a793f13fd3d678cea13d28206895ba0c/1/3/13855-01.jpg
+2025-04-04 21:40:15,036 - downloader - ERROR - Exception caught when downloading file https://www.hidenanalytical.com/wp-content/uploads/2021/03/Lithium-Ion-Battery-Development_shutterstock_1142997314-scaled.jpg, error: HTTPSConnectionPool(host='www.hidenanalytical.com', port=443): Read timed out. (read timeout=5), remaining retry times: 2
+2025-04-04 21:40:15,262 - downloader - INFO - downloaded images reach max num, thread downloader-003 is ready to exit
+2025-04-04 21:40:15,262 - downloader - INFO - thread downloader-003 exit
+2025-04-04 21:40:15,686 - downloader - INFO - downloaded images reach max num, thread downloader-002 is ready to exit
+2025-04-04 21:40:15,686 - downloader - INFO - thread downloader-002 exit
+2025-04-04 21:40:16,503 - parser - INFO - downloaded image reached max num, thread parser-001 is ready to exit
+2025-04-04 21:40:16,503 - parser - INFO - thread parser-001 exit
+2025-04-04 21:40:18,628 - downloader - ERROR - Exception caught when downloading file https://www.fcgov.com/recycling-item-images/img/battery-lithium-ion.jpg, error: HTTPSConnectionPool(host='www.fcgov.com', port=443): Read timed out. (read timeout=5), remaining retry times: 1
+2025-04-04 21:40:18,628 - downloader - INFO - downloaded images reach max num, thread downloader-004 is ready to exit
+2025-04-04 21:40:18,629 - downloader - INFO - thread downloader-004 exit
+2025-04-04 21:40:20,957 - downloader - ERROR - Exception caught when downloading file https://www.hidenanalytical.com/wp-content/uploads/2021/03/Lithium-Ion-Battery-Development_shutterstock_1142997314-scaled.jpg, error: HTTPSConnectionPool(host='www.hidenanalytical.com', port=443): Read timed out. (read timeout=5), remaining retry times: 1
+2025-04-04 21:40:20,957 - downloader - INFO - downloaded images reach max num, thread downloader-001 is ready to exit
+2025-04-04 21:40:20,958 - downloader - INFO - thread downloader-001 exit
+2025-04-04 21:40:20,999 - icrawler.crawler - INFO - Crawling task done!
+2025-04-04 21:40:21,006 - icrawler.crawler - INFO - start crawling...
+2025-04-04 21:40:21,006 - icrawler.crawler - INFO - starting 1 feeder threads...
+2025-04-04 21:40:21,007 - feeder - INFO - thread feeder-001 exit
+2025-04-04 21:40:21,007 - icrawler.crawler - INFO - starting 4 parser threads...
+2025-04-04 21:40:21,009 - icrawler.crawler - INFO - starting 4 downloader threads...
+2025-04-04 21:40:21,645 - parser - INFO - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=li battery&pn=0&rn=30
+2025-04-04 21:40:21,957 - downloader - INFO - image #1	https://s.alicdn.com/@sc04/kf/H1fb9f53cee4b450289482ceb8c3e4e77i.jpg_720x720q50.jpg
+2025-04-04 21:40:21,969 - downloader - INFO - image #2	https://image.made-in-china.com/226f3j00ueUWcpLtRTkD/Lithium-Ion-Battery-3000mAh-18650-Li-Battery-for-Home-Appliances.jpg
+2025-04-04 21:40:22,028 - downloader - INFO - image #3	https://s.alicdn.com/@sc04/kf/H40c4dbea5c794297ac2c1090cbc3aa99n/201761690/H40c4dbea5c794297ac2c1090cbc3aa99n.jpg_720x720q50.jpg
+2025-04-04 21:40:22,111 - downloader - INFO - image #4	https://image.made-in-china.com/226f3j00JOthvYlcEVbi/3-2-Volt-Ifr-Li-ion-Battery-Cell-Lithium-Ion-Battery-Li-Battery-Cell.jpg
+2025-04-04 21:40:22,257 - downloader - INFO - image #5	https://sc02.alicdn.com/kf/H66dadb73ea934eebb064cfb9bd552b0eR/220184724/H66dadb73ea934eebb064cfb9bd552b0eR.jpg
+2025-04-04 21:40:22,294 - downloader - INFO - image #6	https://s.alicdn.com/@sc04/kf/Hb00739dbfef74b8eb18e7aaf55f6a1e2c.jpg_720x720q50.jpg
+2025-04-04 21:40:22,367 - downloader - INFO - image #7	https://image.made-in-china.com/226f3j00vdpPsCrzYRYu/LiFePO4-48V-Li-Battery-100ah-200ah-5kw-10kw-Power-Wall-Energy-Storage-Battery-for-Hybrid-off-Grid-Solar-System-Home.jpg
+2025-04-04 21:40:22,537 - downloader - INFO - image #8	https://image.made-in-china.com/226f3j00QocTiJMaHwqE/Icr18650-2s1p-Smart-Rechargeable-Li-Polymer-Battery-7-4V-2600mAh.jpg
+2025-04-04 21:40:22,537 - downloader - INFO - image #9	https://s.alicdn.com/@sc04/kf/Ha80d4fd6c846431499a36e4389b3879ak.jpg
+2025-04-04 21:40:22,562 - downloader - INFO - image #10	https://s.alicdn.com/@sc04/kf/H961bd06794a34718a58657cf8c5e1c034.jpg_720x720q50.jpg
+2025-04-04 21:40:22,774 - downloader - INFO - downloaded images reach max num, thread downloader-001 is ready to exit
+2025-04-04 21:40:22,779 - downloader - INFO - thread downloader-001 exit
+2025-04-04 21:40:22,874 - downloader - INFO - downloaded images reach max num, thread downloader-002 is ready to exit
+2025-04-04 21:40:22,874 - downloader - INFO - thread downloader-002 exit
+2025-04-04 21:40:22,981 - downloader - INFO - downloaded images reach max num, thread downloader-003 is ready to exit
+2025-04-04 21:40:22,981 - downloader - INFO - thread downloader-003 exit
+2025-04-04 21:40:23,020 - parser - INFO - no more page urls for thread parser-003 to parse
+2025-04-04 21:40:23,020 - parser - INFO - no more page urls for thread parser-002 to parse
+2025-04-04 21:40:23,020 - parser - INFO - no more page urls for thread parser-004 to parse
+2025-04-04 21:40:23,020 - parser - INFO - thread parser-003 exit
+2025-04-04 21:40:23,020 - parser - INFO - thread parser-002 exit
+2025-04-04 21:40:23,020 - parser - INFO - thread parser-004 exit
+2025-04-04 21:40:23,305 - downloader - INFO - downloaded images reach max num, thread downloader-004 is ready to exit
+2025-04-04 21:40:23,306 - downloader - INFO - thread downloader-004 exit
+2025-04-04 21:40:24,012 - icrawler.crawler - INFO - Crawling task done!
+2025-04-04 21:40:24,012 - icrawler.crawler - INFO - start crawling...
+2025-04-04 21:40:24,012 - icrawler.crawler - INFO - starting 1 feeder threads...
+2025-04-04 21:40:24,012 - feeder - INFO - thread feeder-001 exit
+2025-04-04 21:40:24,012 - icrawler.crawler - INFO - starting 4 parser threads...
+2025-04-04 21:40:24,013 - icrawler.crawler - INFO - starting 4 downloader threads...
+2025-04-04 21:40:24,146 - parser - INFO - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=li battery&pn=0&rn=30
+2025-04-04 21:40:24,199 - downloader - INFO - image #1	https://image.made-in-china.com/226f3j00ueUWcpLtRTkD/Lithium-Ion-Battery-3000mAh-18650-Li-Battery-for-Home-Appliances.jpg
+2025-04-04 21:40:24,219 - downloader - INFO - image #2	https://image.made-in-china.com/226f3j00vdpPsCrzYRYu/LiFePO4-48V-Li-Battery-100ah-200ah-5kw-10kw-Power-Wall-Energy-Storage-Battery-for-Hybrid-off-Grid-Solar-System-Home.jpg
+2025-04-04 21:40:24,240 - downloader - INFO - image #3	https://image.made-in-china.com/226f3j00JOthvYlcEVbi/3-2-Volt-Ifr-Li-ion-Battery-Cell-Lithium-Ion-Battery-Li-Battery-Cell.jpg
+2025-04-04 21:40:24,279 - downloader - INFO - image #4	https://s.alicdn.com/@sc04/kf/H1fb9f53cee4b450289482ceb8c3e4e77i.jpg_720x720q50.jpg
+2025-04-04 21:40:24,283 - downloader - INFO - image #5	https://s.alicdn.com/@sc04/kf/H40c4dbea5c794297ac2c1090cbc3aa99n/201761690/H40c4dbea5c794297ac2c1090cbc3aa99n.jpg_720x720q50.jpg
+2025-04-04 21:40:24,292 - downloader - INFO - image #6	https://sc02.alicdn.com/kf/H66dadb73ea934eebb064cfb9bd552b0eR/220184724/H66dadb73ea934eebb064cfb9bd552b0eR.jpg
+2025-04-04 21:40:24,297 - parser - INFO - no more page urls for thread parser-001 to parse
+2025-04-04 21:40:24,297 - parser - INFO - thread parser-001 exit
+2025-04-04 21:40:24,321 - downloader - INFO - image #7	https://s.alicdn.com/@sc04/kf/H961bd06794a34718a58657cf8c5e1c034.jpg_720x720q50.jpg
+2025-04-04 21:40:24,338 - downloader - INFO - image #8	https://image.made-in-china.com/226f3j00QocTiJMaHwqE/Icr18650-2s1p-Smart-Rechargeable-Li-Polymer-Battery-7-4V-2600mAh.jpg
+2025-04-04 21:40:24,354 - downloader - INFO - image #9	https://s.alicdn.com/@sc04/kf/Hb00739dbfef74b8eb18e7aaf55f6a1e2c.jpg_720x720q50.jpg
+2025-04-04 21:40:24,355 - downloader - INFO - image #10	https://s.alicdn.com/@sc04/kf/Ha80d4fd6c846431499a36e4389b3879ak.jpg
+2025-04-04 21:40:24,371 - downloader - INFO - downloaded images reach max num, thread downloader-004 is ready to exit
+2025-04-04 21:40:24,371 - downloader - INFO - thread downloader-004 exit
+2025-04-04 21:40:24,395 - downloader - INFO - downloaded images reach max num, thread downloader-003 is ready to exit
+2025-04-04 21:40:24,395 - downloader - INFO - thread downloader-003 exit
+2025-04-04 21:40:24,412 - downloader - INFO - downloaded images reach max num, thread downloader-001 is ready to exit
+2025-04-04 21:40:24,413 - downloader - INFO - thread downloader-001 exit
+2025-04-04 21:40:24,505 - downloader - INFO - downloaded images reach max num, thread downloader-002 is ready to exit
+2025-04-04 21:40:24,505 - downloader - INFO - thread downloader-002 exit
+2025-04-04 21:40:25,015 - icrawler.crawler - INFO - Crawling task done!
+2025-04-04 21:41:14,318 - icrawler.crawler - INFO - start crawling...
+2025-04-04 21:41:14,318 - icrawler.crawler - INFO - starting 1 feeder threads...
+2025-04-04 21:41:14,318 - feeder - INFO - thread feeder-001 exit
+2025-04-04 21:41:14,318 - icrawler.crawler - INFO - starting 4 parser threads...
+2025-04-04 21:41:14,319 - icrawler.crawler - INFO - starting 4 downloader threads...
+2025-04-04 21:41:15,981 - parser - INFO - parsing result page https://www.google.com/search?q=li+battery&ijn=0&start=0&tbs=&tbm=isch
+2025-04-04 21:41:16,330 - parser - INFO - no more page urls for thread parser-004 to parse
+2025-04-04 21:41:16,330 - parser - INFO - no more page urls for thread parser-003 to parse
+2025-04-04 21:41:16,330 - parser - INFO - no more page urls for thread parser-002 to parse
+2025-04-04 21:41:16,330 - parser - INFO - thread parser-004 exit
+2025-04-04 21:41:16,330 - parser - INFO - thread parser-003 exit
+2025-04-04 21:41:16,330 - parser - INFO - thread parser-002 exit
+2025-04-04 21:41:17,120 - downloader - INFO - image #1	https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41928-018-0048-6/MediaObjects/41928_2018_48_Fig1_HTML.jpg
+2025-04-04 21:41:17,522 - downloader - INFO - image #2	https://ul.org/wp-content/uploads/2024/11/Lithium20Ion20Cell203.png
+2025-04-04 21:41:17,581 - downloader - INFO - image #3	https://dcf.kadant.com/images/blog/pillar-lithium-batteries/lithium-pillar-electrode-mfg-iStock-1402359102.jpg
+2025-04-04 21:41:18,679 - downloader - INFO - image #4	https://circuitdigest.com/sites/default/files/field/image/Li-ion-Batteries.jpg
+2025-04-04 21:41:18,682 - downloader - INFO - image #5	https://admin.acceleratingscience.com/materials/wp-content/uploads/sites/7/2018/11/li-ion20battery.jpg
+2025-04-04 21:41:19,465 - downloader - INFO - downloaded images reach max num, thread downloader-001 is ready to exit
+2025-04-04 21:41:19,465 - downloader - INFO - thread downloader-001 exit
+2025-04-04 21:41:19,776 - downloader - INFO - downloaded images reach max num, thread downloader-004 is ready to exit
+2025-04-04 21:41:19,776 - downloader - INFO - thread downloader-004 exit
+2025-04-04 21:41:20,165 - downloader - INFO - downloaded images reach max num, thread downloader-003 is ready to exit
+2025-04-04 21:41:20,165 - downloader - INFO - thread downloader-003 exit
+2025-04-04 21:41:20,691 - parser - INFO - downloaded image reached max num, thread parser-001 is ready to exit
+2025-04-04 21:41:20,691 - parser - INFO - thread parser-001 exit
+2025-04-04 21:41:22,595 - downloader - ERROR - Exception caught when downloading file https://www.fcgov.com/recycling-item-images/img/battery-lithium-ion.jpg, error: HTTPSConnectionPool(host='www.fcgov.com', port=443): Read timed out. (read timeout=5), remaining retry times: 2
+2025-04-04 21:41:22,595 - downloader - INFO - downloaded images reach max num, thread downloader-002 is ready to exit
+2025-04-04 21:41:22,595 - downloader - INFO - thread downloader-002 exit
+2025-04-04 21:41:23,325 - icrawler.crawler - INFO - Crawling task done!
+2025-04-04 21:41:23,325 - icrawler.crawler - INFO - start crawling...
+2025-04-04 21:41:23,325 - icrawler.crawler - INFO - starting 1 feeder threads...
+2025-04-04 21:41:23,325 - feeder - INFO - thread feeder-001 exit
+2025-04-04 21:41:23,326 - icrawler.crawler - INFO - starting 4 parser threads...
+2025-04-04 21:41:23,328 - icrawler.crawler - INFO - starting 4 downloader threads...
+2025-04-04 21:41:23,899 - parser - INFO - parsing result page https://www.bing.com/images/async?q=li battery&first=0
+2025-04-04 21:41:24,061 - downloader - INFO - image #1	https://image.made-in-china.com/2f0j00gTcYNVkWhdqG/14500-800mAh-3-7V-Rechargeable-Li-ion-Battery.jpg
+2025-04-04 21:41:25,320 - downloader - INFO - image #2	https://www.ainbattery.com/wp-content/uploads/18650-3.7V-2900mah-b.jpg
+2025-04-04 21:41:25,333 - parser - INFO - no more page urls for thread parser-003 to parse
+2025-04-04 21:41:25,333 - parser - INFO - no more page urls for thread parser-002 to parse
+2025-04-04 21:41:25,333 - parser - INFO - no more page urls for thread parser-004 to parse
+2025-04-04 21:41:25,333 - parser - INFO - thread parser-003 exit
+2025-04-04 21:41:25,333 - parser - INFO - thread parser-002 exit
+2025-04-04 21:41:25,334 - parser - INFO - thread parser-004 exit
+2025-04-04 21:41:25,357 - downloader - INFO - image #3	https://cdn03.plentymarkets.com/i9a0e0hd8l6w/item/images/100732/full/22650-A-Lithium-Ionen-Akku-3-6V-3-7V-3000mAh.jpg
+2025-04-04 21:41:25,924 - parser - INFO - no more page urls for thread parser-001 to parse
+2025-04-04 21:41:25,924 - parser - INFO - thread parser-001 exit
+2025-04-04 21:41:26,112 - downloader - INFO - image #4	https://www.durnergy.com/uploads/18650-3.7V-4400mAh-Rechargeable-Lithium-Battery-pack-3.jpg
+2025-04-04 21:41:26,488 - downloader - INFO - image #5	https://pashbull.com/wp-content/uploads/2023/05/1.jpg
+2025-04-04 21:41:26,752 - downloader - INFO - downloaded images reach max num, thread downloader-002 is ready to exit
+2025-04-04 21:41:26,752 - downloader - INFO - thread downloader-002 exit
+2025-04-04 21:41:27,205 - downloader - INFO - downloaded images reach max num, thread downloader-001 is ready to exit
+2025-04-04 21:41:27,205 - downloader - INFO - thread downloader-001 exit
+2025-04-04 21:41:27,312 - downloader - INFO - downloaded images reach max num, thread downloader-003 is ready to exit
+2025-04-04 21:41:27,312 - downloader - INFO - thread downloader-003 exit
+2025-04-04 21:41:28,667 - downloader - ERROR - Exception caught when downloading file https://www.fcgov.com/recycling-item-images/img/battery-lithium-ion.jpg, error: HTTPSConnectionPool(host='www.fcgov.com', port=443): Max retries exceeded with url: /recycling-item-images/img/battery-lithium-ion.jpg (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)'))), remaining retry times: 2
+2025-04-04 21:41:28,667 - downloader - INFO - downloaded images reach max num, thread downloader-004 is ready to exit
+2025-04-04 21:41:28,668 - downloader - INFO - thread downloader-004 exit
+2025-04-04 21:41:29,331 - icrawler.crawler - INFO - Crawling task done!
+2025-04-04 21:41:29,331 - icrawler.crawler - INFO - start crawling...
+2025-04-04 21:41:29,331 - icrawler.crawler - INFO - starting 1 feeder threads...
+2025-04-04 21:41:29,331 - feeder - INFO - thread feeder-001 exit
+2025-04-04 21:41:29,331 - icrawler.crawler - INFO - starting 4 parser threads...
+2025-04-04 21:41:29,333 - icrawler.crawler - INFO - starting 4 downloader threads...
+2025-04-04 21:41:29,517 - parser - INFO - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=li battery&pn=0&rn=30
+2025-04-04 21:41:29,567 - downloader - INFO - image #1	https://image.made-in-china.com/226f3j00ueUWcpLtRTkD/Lithium-Ion-Battery-3000mAh-18650-Li-Battery-for-Home-Appliances.jpg
+2025-04-04 21:41:29,584 - downloader - INFO - image #2	https://image.made-in-china.com/226f3j00vdpPsCrzYRYu/LiFePO4-48V-Li-Battery-100ah-200ah-5kw-10kw-Power-Wall-Energy-Storage-Battery-for-Hybrid-off-Grid-Solar-System-Home.jpg
+2025-04-04 21:41:29,601 - downloader - INFO - image #3	https://image.made-in-china.com/226f3j00JOthvYlcEVbi/3-2-Volt-Ifr-Li-ion-Battery-Cell-Lithium-Ion-Battery-Li-Battery-Cell.jpg
+2025-04-04 21:41:29,624 - downloader - INFO - image #4	https://s.alicdn.com/@sc04/kf/H1fb9f53cee4b450289482ceb8c3e4e77i.jpg_720x720q50.jpg
+2025-04-04 21:41:29,633 - downloader - INFO - image #5	https://s.alicdn.com/@sc04/kf/H40c4dbea5c794297ac2c1090cbc3aa99n/201761690/H40c4dbea5c794297ac2c1090cbc3aa99n.jpg_720x720q50.jpg
+2025-04-04 21:41:29,679 - downloader - INFO - downloaded images reach max num, thread downloader-002 is ready to exit
+2025-04-04 21:41:29,680 - downloader - INFO - thread downloader-002 exit
+2025-04-04 21:41:29,682 - downloader - INFO - downloaded images reach max num, thread downloader-004 is ready to exit
+2025-04-04 21:41:29,682 - downloader - INFO - thread downloader-004 exit
+2025-04-04 21:41:29,697 - downloader - INFO - downloaded images reach max num, thread downloader-001 is ready to exit
+2025-04-04 21:41:29,698 - downloader - INFO - thread downloader-001 exit
+2025-04-04 21:41:29,716 - downloader - INFO - downloaded images reach max num, thread downloader-003 is ready to exit
+2025-04-04 21:41:29,716 - downloader - INFO - thread downloader-003 exit
+2025-04-04 21:41:30,335 - icrawler.crawler - INFO - Crawling task done!

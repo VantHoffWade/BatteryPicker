@@ -1,0 +1,21 @@
+卷 文档 的文件夹 PATH 列表
+卷序列号为 62A0-D6C7
+E:.
+├─.idea
+│  └─inspectionProfiles
+├─dataset
+│  ├─images
+│  │  ├─train
+│  │  └─val
+│  └─labels
+│      ├─train
+│      └─val
+├─Test
+└─utils
+    └─data
+        ├─cleaned
+        ├─labeled
+        └─raw
+            ├─baidu
+            ├─bing
+            └─google
