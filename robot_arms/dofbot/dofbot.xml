@@ -1,0 +1,148 @@
+<mujoco model="yahboom_dofbot">
+  <compiler angle="radian" meshdir="meshes/" autolimits="true"/>
+	<option integrator="implicit" timestep="0.001" o_margin="0.001" cone="elliptic" tolerance="1e-4"/>
+	<!--<include file="dofbot_scene.xml"/>-->
+	
+	<visual>
+        <map fogstart="1.5" fogend="5" force="0.1" znear="0.1"/>
+        <quality shadowsize="4096" offsamples="4"/>
+        <headlight ambient="0.4 0.4 0.4"/>
+   </visual>
+
+	<asset>
+		<mesh name="base_link" file="base_link.STL"/>
+		<mesh name="arm_link1" file="arm_link1.STL"/>
+		<mesh name="arm_link2" file="arm_link2.STL"/>
+		<mesh name="arm_link3" file="arm_link3.STL"/>
+		<mesh name="arm_link4" file="arm_link4.STL"/>
+		<mesh name="arm_link5" file="arm_link5.STL"/>
+		<mesh name="rlink1" file="rlink1.STL"/>
+		<mesh name="rlink2" file="rlink2.STL"/>
+		<mesh name="rlink3" file="rlink3.STL"/>
+		<mesh name="llink1" file="llink1.STL"/>
+		<mesh name="llink2" file="llink2.STL"/>
+		<mesh name="llink3" file="llink3.STL"/>
+	</asset>
+
+	<worldbody>
+		<body name="pillar" pos="0.0 0.2 0.2">
+				<geom pos="0 0 0" size="0.04 0.04 0.2" type="box" name="pillar" rgba="0.8 1 0.4 1" 
+				solref="0.001 1" solimp="0.999 0.999 0.001" contype="1" conaffinity="2"/>
+		</body>
+		
+		<body name="red_box" pos="0.2 0.5 0.05">
+      <geom type="box" size="0.05 0.05 0.05" rgba="1 0 0 1" name="red_box_geom"/>
+    </body>
+		
+		<!-- 机械臂基座的body标签 -->
+		<body name="base_link">
+			<geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.2 0.2 0.2 1" mesh="base_link"/>
+			<geom type="mesh" rgba="0.2 0.2 0.2 1" mesh="base_link"/>
+			<!-- 机械臂arm_link1的body + joint标签-->
+			<body name="arm_link1" pos="0 0 0.06605" quat="0.731678 -0.00395293 -0.00368254 0.681629">
+				<inertial pos="1.9918e-05 -5.98355e-05 0.0114289" quat="0.503495 0.496992 -0.499932 0.499559" mass="0.0279545" diaginertia="1.49641e-05 1.19145e-05 1.0564e-05"/>
+				<joint name="arm_joint1" pos="0 0 0" axis="0 0 1" range="-1.5708 1.5708" damping="1" />
+				<geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="arm_link1"/>
+				<geom type="mesh" rgba="1 1 1 1" mesh="arm_link1"/>
+				<!-- 机械臂arm_link2的body + joint标签-->
+				<body name="arm_link2" pos="0 0 0.0405" quat="0.707105 -0.707108 0 0">
+					<inertial pos="0.024903 -0.0022632 -0.00066663" quat="0.487261 0.491406 0.51243 0.508441" mass="0.031605" diaginertia="2.67072e-05 2.46962e-05 5.81105e-06"/>
+					<joint name="arm_joint2" pos="0 0 0" axis="0 0 -1" range="-1.5708 1.5708" damping="1"/>
+					<geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="arm_link2"/>
+					<geom type="mesh" rgba="1 1 1 1" mesh="arm_link2"/>
+					<!-- 机械臂arm_link3的body + joint标签-->
+					<body name="arm_link3" pos="0 -0.0829 0">
+						<inertial pos="0.024903 -0.0022634 -0.0013962" quat="0.487109 0.491568 0.512017 0.508846" mass="0.031605" diaginertia="2.67072e-05 2.46961e-05 5.81093e-06"/>
+						<joint name="arm_joint3" pos="0 0 0" axis="0 0 -1" range="-1.5708 1.5708" damping="1"/>
+						<geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="arm_link3"/>
+						<geom type="mesh" rgba="1 1 1 1" mesh="arm_link3"/>
+						<!-- 机械臂arm_link4的body + joint标签-->
+						<body name="arm_link4" pos="0 -0.0829 0">
+							<camera name="arm_cam" pos="0.01 0 0" mode="fixed" zaxis="0 1 0" fovy="105"/>
+							<inertial pos="0.036246 0.0023413 -0.0019655" quat="-0.0965524 0.702171 0.0765377 0.701267" mass="0.049766" diaginertia="4.17722e-05 3.79571e-05 1.02197e-05"/>
+							<joint name="arm_joint4" pos="0 0 0" axis="0 0 -1" range="-1.5708 1.5708" damping="1"/>
+							<geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="arm_link4"/>
+							<geom type="mesh" rgba="1 1 1 1" mesh="arm_link4"/>
+							<!-- 机械臂arm_link5的body + joint标签-->
+							<body name="arm_link5" pos="-0.00215 -0.17455 0" quat="0.707105 0.707108 0 0">
+								<inertial pos="0.0023228 0.018169 0.028684" quat="0.4717 0.512383 -0.624213 0.354007" mass="0.04069" diaginertia="1.37303e-05 1.07053e-05 9.12001e-06"/>
+								<joint name="arm_joint5" pos="0 0 0" axis="0 0 1" range="-1.5708 3.14159" damping="1"/>
+								<geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="arm_link5"/>
+								<geom type="mesh" rgba="1 1 1 1" mesh="arm_link5"/>
+								<!-- 机械臂夹爪的rlink1的body + joint标签-->
+								<body name="rlink1" pos="-0.0035 -0.012625 -0.0685" quat="0.707105 0 -0.707108 0">
+									<inertial pos="0.00653227 0.000416768 0.000980984" quat="0.0209119 0.706477 -0.0212978 0.707106" mass="0.00117883" diaginertia="1.99277e-07 1.67735e-07 3.25601e-08"/>
+									<joint name="grip_joint" pos="0 0 0" axis="0 0 1" range="-1.54 0" damping="10"/>
+									<geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="rlink1"/>
+									<geom type="mesh" rgba="1 1 1 1" mesh="rlink1"/>
+									<!-- 机械臂夹爪的rlink2的body + joint标签-->
+									<body name="rlink2" pos="0.03 -0.00075429 0">
+										<site name="rlink2_connect" pos="0.01801 0.0087 0" size="0.0005 0.0005 0.0005"/>
+										<inertial pos="0.021158 0.0063295 -0.0030251" quat="-0.0773735 0.703432 0.064217 0.703614" mass="0.0024469" diaginertia="6.63645e-07 6.57049e-07 2.68654e-08"/>
+										<joint name="rlink_joint2" pos="0 0 0" axis="0 0 1" range="-1.54 0" stiffness="10" damping="1"/>
+										<geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="rlink2"/>
+										<geom type="mesh" rgba="1 1 1 1" mesh="rlink2"/>
+									</body>
+								</body>
+								<!-- 机械臂夹爪的rlink3的body + joint标签-->
+								<body name="rlink3" pos="-0.0035 -0.0045 -0.0505" quat="0.707105 0 -0.707108 0">
+									<site name="rlink3_connect" pos="0.03 0 0" size="0.0005 0.0005 0.0005"/>
+									<inertial pos="0.014355 1.1499e-05 -0.0033992" quat="0.49736 0.502227 0.502626 0.497763" mass="0.00087627" diaginertia="1.4825e-07 1.309e-07 2.05235e-08"/>
+									<joint name="rlink_joint3" pos="0 0 0" axis="0 0 1" range="-1.54 0" stiffness="10" damping="1"/>
+									<geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="rlink3"/>
+									<geom type="mesh" rgba="1 1 1 1" mesh="rlink3"/>
+								</body>
+								<!-- 机械臂夹爪的llink1的body + joint标签-->
+								<body name="llink1" pos="-0.0035 0.012375 -0.0685" quat="0.707105 0 -0.707108 0">
+									<inertial pos="0.00628617 -0.00031853 0.001" quat="-0.0206417 0.706805 0.0206417 0.706805" mass="0.00121011" diaginertia="2.00284e-07 1.69739e-07 3.13513e-08"/>
+									<joint name="llink_joint1" pos="0 0 0" axis="0 0 1" range="-1.54 0" stiffness="500" damping="10" />
+									<geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="llink1" />
+									<geom type="mesh" rgba="1 1 1 1" mesh="llink1"/>
+									<!-- 机械臂夹爪的llink2的body + joint标签-->
+									<body name="llink2" pos="0.03 0.00065104 0">
+										<site name="llink2_connect" pos="0.01801 -0.0087 0" size="0.0005 0.0005 0.0005"/>
+										<inertial pos="0.021159 -0.0063248 -0.0030251" quat="0.0772994 0.70344 -0.0641326 0.703622" mass="0.0024469" diaginertia="6.63645e-07 6.57054e-07 2.68667e-08"/>
+										<joint name="llink_joint2" pos="0 0 0" axis="0 0 1" stiffness="10" damping="1"/>
+										<geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="llink2"/>
+										<geom type="mesh" rgba="1 1 1 1" mesh="llink2"/>
+									</body>
+								</body>
+								<!-- 机械臂夹爪的llink3的body + joint标签-->
+								<body name="llink3" pos="-0.0035 0.0045 -0.0505" quat="0.707105 0 -0.707108 0">
+									<site name="llink3_connect" pos="0.03 0 0" size="0.0005 0.0005 0.0005"/>
+									<inertial pos="0.014354 -7.4795e-05 -0.0033992" quat="0.498869 0.503721 0.501129 0.496251" mass="0.00087627" diaginertia="1.48253e-07 1.309e-07 2.05231e-08"/>
+									<joint name="llink_joint3" pos="0 0 0" axis="0 0 1" stiffness="10" damping="1"/>
+									<geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="1 1 1 1" mesh="llink3"/>
+									<geom type="mesh" rgba="1 1 1 1" mesh="llink3"/>
+								</body>	
+							</body>
+						</body>
+					</body>
+				</body>
+			</body>
+		</body>	
+	</worldbody>
+	
+	<!-- 这是有关连杆之间是否进行接触检测的定义 -->
+	<contact>
+		<exclude name="e1" body1="base_link" body2="arm_link1" />
+	</contact>
+
+	<!-- 这是有关关节之间特别是指末端执行器之间的约束关系 -->
+	<equality>
+		<connect name="rlink_connect" site1="rlink2_connect" site2="rlink3_connect" solref="0.0005 0.05" solimp="0.98 0.99 0.001"/>
+		<connect name="llink_connect" site1="llink2_connect" site2="llink3_connect" solref="0.0005 0.05" solimp="0.98 0.99 0.001"/>
+		<joint name="joint1" joint1="grip_joint" joint2="llink_joint1" polycoef="0 -1 0 0 0" solref="0.0002 0.05" solimp="0.99 0.999 0.001"/>
+	</equality>
+
+	<!-- 这是有关执行器的定义 -->
+	<actuator>
+		<position name="arm_joint1" joint="arm_joint1" ctrllimited="true" ctrlrange="-1.5708 1.5708" forcelimited="true" forcerange="-30 30" kp="500"/>
+    <position name="arm_joint2" joint="arm_joint2" ctrllimited="true" ctrlrange="-1.5708 1.5708" forcelimited="true" forcerange="-100 100" kp="500"/>
+    <position name="arm_joint3" joint="arm_joint3" ctrllimited="true" ctrlrange="-1.5708 1.5708" forcelimited="true" forcerange="-100 100" kp="500"/>
+    <position name="arm_joint4" joint="arm_joint4" ctrllimited="true" ctrlrange="-1.5708 1.5708" forcelimited="true" forcerange="-100 100" kp="500"/>
+    <position name="arm_joint5" joint="arm_joint5" ctrllimited="true" ctrlrange="-1.5708 1.5708" forcelimited="true" forcerange="-100 100" kp="500"/>
+    <position name="grip_joint" joint="grip_joint" ctrllimited="true" ctrlrange="-1.5708 0" forcelimited="true" forcerange="-5000 5000" kp="500" />
+  </actuator>
+
+</mujoco>

@@ -64,6 +64,9 @@ class HashProcessor:
         for img_path in img_list:
             # 打开图片
             image = Image.open(img_path)
+            # 如果为RGBA模式则转化为RGB模式
+            if image.mode != "RGB":
+                image = image.convert("RGB")
             # 根据所选模式计算哈希值
             hash_value = self.hash_modes[self.hash_mode](image)
             # 如果该哈希值之前没有出现过

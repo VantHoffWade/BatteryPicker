@@ -1,3 +1,5 @@
+import time
+
 from icrawler.builtin import GoogleImageCrawler, BingImageCrawler, BaiduImageCrawler
 import logging
 
@@ -71,8 +73,26 @@ class BaiduCrawler:
 
 if __name__ == '__main__':
     # 指定所要爬取的图片的关键词
-    target_keywords = ["li battery",
-                ]
+    target_keywords = [
+        "cylindrical lithium-ion battery real photo",
+        "real cylindrical battery images",
+        "cylindrical battery pack no watermark",
+        "prismatic lithium-ion battery real photo",
+        "real prismatic battery images",
+        "prismatic battery no watermark",
+        "pouch lithium-ion battery real photo",
+        "real pouch battery images",
+        "pouch battery no watermark",
+        "圆柱形锂离子电池 实拍图",
+        "无水印 圆柱形电池",
+        "圆柱形锂电池 实物图",
+        "方形锂离子电池 实拍图",
+        "无水印 方形电池",
+        "方形锂电池 实物图",
+        "软包锂离子电池 实拍图",
+        "无水印 软包电池",
+        "软包锂电池 实物图"
+    ]
 
     # 设置爬虫输出日志的目标文件路径，将日志信息输出到logs/crawler.log文件中，不在控制台上显示
     logging.basicConfig(
@@ -83,13 +103,20 @@ if __name__ == '__main__':
         ]
     )
 
-    # 创建爬虫对象并进行爬取
-    google_crawler = GoogleCrawler()
-    google_crawler.crawl(keywords=target_keywords, max_num=5)
-    bing_crawler = BingCrawler()
-    bing_crawler.crawl(keywords=target_keywords, max_num=5)
-    baidu_crawler = BaiduCrawler()
-    baidu_crawler.crawl(keywords=target_keywords, max_num=5)
+    try:
+
+        # 创建爬虫对象并进行爬取
+        google_crawler = GoogleCrawler()
+        google_crawler.crawl(keywords=target_keywords, max_num=500)
+        """
+        bing_crawler = BingCrawler()
+        bing_crawler.crawl(keywords=target_keywords, max_num=500)
+        baidu_crawler = BaiduCrawler()
+        baidu_crawler.crawl(keywords=target_keywords, max_num=500)
+        """
+    except Exception as e:
+        print(e)
+        time.sleep(100)
 
 
 
